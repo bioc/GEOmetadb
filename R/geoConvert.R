@@ -33,8 +33,10 @@
 
 geoConvert <-
 function(in_list, out_type = c('gse','gpl','gsm','gds','sMatrix'),sqlite_db_name='GEOmetadb.sqlite') {
-        out_type <- match.arg(out_type, several.ok = T)	
-	
+    
+	out_type <- out_type <- (out_type) 
+	out_type <- match.arg(out_type, several.ok = T)	
+		
 	## validate in_list
 	valid_in_type <- c('gse','gpl','gsm','gds')
 	in_list <- toupper(in_list)
