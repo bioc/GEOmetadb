@@ -18,7 +18,9 @@ output:
 %\VignettePackage{GEOmetadb}
 -->
 
+<!--
 ![Build Status](https://travis-ci.org/seandavi/GEOmetadb.png?branch=master)
+-->
 
 # Overview of *GEOmetadb*
 
