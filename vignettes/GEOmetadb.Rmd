@@ -1,7 +1,7 @@
 ---
 title: "Using the GEOmetadb Package"
 author: Jack Zhu and Sean Davis
-date: September 21, 2014
+date: March 24, 2026
 output:
   html_document:
     toc: true
@@ -282,8 +282,7 @@ Load the *dplyr* library and connect to the `GEOmetadb.sqlite` database.  The *d
 
 ```{r}
 library(dplyr)
-db = tbl(demo_sqlfile)
-gse = tbl(db,'gse')
+gse = tbl(con, "gse")
 filter(gse,gse=='GSE2553')
 ```
 
